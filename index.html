@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Battle 2.0 – Shirin Gupta</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <video autoplay muted loop>
+            <source src="loader.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Frontend Battle</div>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#stats">Stats</a></li>
+            <li><a href="#emissions">Emissions</a></li>
+            <li><a href="#brandkits">Brand Kits</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#showcase">Showcase</a></li>
+            <li><a href="#cta">CTA</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="themeToggle">🌗</button>
+    </nav>
+
+    <!-- Hero Section with Background Video and Overlay -->
+    <section id="hero">
+        <video autoplay muted loop class="bg-hero">
+            <source src="homepage.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay">
+            <h1>Welcome to Frontend Battle</h1>
+            <p>Pixel-perfect replication meets innovative interaction.</p>
+            <button class="ripple-btn">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats">
+        <h2>Portfolio Statistics</h2>
+        <div class="image-block">
+            <img src="stats.png" alt="Stats Overview" />
+        </div>
+    </section>
+
+    <!-- Emissions Section -->
+    <section id="emissions">
+        <h2>Embodied Carbon Emissions</h2>
+        <div class="image-block">
+            <img src="graph.png" alt="Emission Graph" />
+        </div>
+    </section>
+
+    <!-- Brand Kits with Hover Cards -->
+    <section id="brandkits">
+        <h2>Explore Our Brand Kits</h2>
+        <div class="card-container">
+            <img src="cards.png" alt="Brand Kits" />
+        </div>
+    </section>
+
+    <!-- Testimonials Carousel -->
+    <section id="testimonials">
+        <h2>User Testimonials</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial active">“The ripple effects and UI polish are top notch.”</div>
+            <div class="testimonial">“Never imagined frontend could feel this dynamic!”</div>
+            <div class="testimonial">“Animations and interactivity = 🔥🔥🔥”</div>
+        </div>
+    </section>
+
+    <!-- Showcase with Embedded Work -->
+    <section id="showcase">
+        <h2>Our Work Showcase</h2>
+        <div class="showcase-grid">
+            <video autoplay muted loop>
+                <source src="showcase_work.mp4" type="video/mp4" />
+            </video>
+            <div class="work">Project Alpha</div>
+            <div class="work">Project Beta</div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Ripple Effect -->
+    <section id="cta">
+        <h2>Ready to Create Magic?</h2>
+        <p>Click below to start your frontend journey with ripple impact.</p>
+        <button class="ripple-btn">Get Started</button>
+        <div class="divider">
+            <video autoplay muted loop>
+                <source src="striking.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </section>
+
+    <!-- Scroll-triggered Pop-up -->
+    <div class="popup" id="popup" role="alert">
+        <p>🎉 You’ve explored all sections! Great job.</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:shiringupta28@gmail.com">shiringupta28@gmail.com</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
