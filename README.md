@@ -35,4 +35,4 @@ All 12 provided assets were used visually or as interaction reference
 ## 👩 Author
 Shirin Gupta  
 Email: shiringupta28@gmail.com  
-# frontend-battle-2.0-round-1
+
